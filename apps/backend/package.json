@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "nest build",
+    "dev": "nest start --watch",
+    "start": "nest start",
+    "start:prod": "node dist/main",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint \"src/**/*.ts\""
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.1.18",
+    "@nestjs/core": "^11.1.18",
+    "@nestjs/platform-express": "^11.1.18",
+    "nest": "^0.1.6",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^11.0.19",
+    "@nestjs/schematics": "^11.0.10",
+    "@nestjs/testing": "^11.1.18",
+    "@swc/core": "^1.15.24",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.2",
+    "typescript": "^6.0.2",
+    "unplugin-swc": "^1.5.9",
+    "vitest": "^4.1.4"
+  }
+}
