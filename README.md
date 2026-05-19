@@ -22,6 +22,9 @@ pnpm dev
 
 # Run all tests
 pnpm test
+
+FOR FURTHER INSTRUCTIONS PLEASE SEE README.TXT
+
 ```
 
 | App      | URL                       |
